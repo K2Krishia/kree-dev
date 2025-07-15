@@ -3,25 +3,25 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Regnum Speed",
-    description: "A real-time WebSocket gambling game that handles thousands of users simultaneously.",
-    tech: ["Node.js", "Redis", "PostgreSQL", "uWebSockets.js", "Docker"],
-    live: "https://regnumspeed.kr", // change to your actual link later
-    code: "https://github.com/K2Krishia/regnum-speed",
+    title: "Regnum",
+    description: "A real-time gambling card game (licensed by PAGCOR) that supports thousands of concurrent users. Developed as part of a large-scale system under ESAT Pilipinas Teknik, OPC.",
+    tech: ["Flutter", ".NET", "Django", "Node.js", "Kafka", "Redis", "PostgreSQL", "MsSql", "Socket.io"],
+    live: "https://happy-play.ept.ph/",
+    code: null,
   },
   {
-    title: "Kree.dev",
+    title: "Kree Dev",
     description: "Personal portfolio site showcasing my work and humor (this site!).",
-    tech: ["Next.js", "Tailwind", "TypeScript", "Firebase"],
+    tech: ["Next.js", "Tailwind", "TypeScript", "Vercel"],
     live: "#", // can update when deployed
     code: "https://github.com/K2Krishia/kree-dev",
   },
   {
-    title: "Coming Soon Project",
-    description: "A mini site hosted on Firebase, launching soon!",
-    tech: ["React", "Firebase"],
-    live: "#",
-    code: null,
+    title: "Stir Fry Day",
+    description: "A minimal but oddly sentimental app that counts the seconds since someone said yes. Decorated with floating avocados and stir fry — the core ingredients of love and questionable frontend choices. Because emotion-driven deployment is still deployment!",
+    tech: ["React", "Javascript", "Firebase"],
+    live: "https://stir-fry-76884.web.app/",
+    code: "https://github.com/K2Krishia/stir-fry",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function Projects() {
                   <FaGithub /> Code
                 </a>
               ) : (
-                <span className="text-sm text-gray-500 italic">Private / Coming soon</span>
+                <span className="text-sm text-gray-500 italic">Private</span>
               )}
             </div>
           </motion.div>
