@@ -13,7 +13,7 @@ const projects = [
     title: "Kree Dev",
     description: "Personal portfolio site showcasing my work and humor (this site!).",
     tech: ["Next.js", "Tailwind", "TypeScript", "Vercel"],
-    live: "#", // can update when deployed
+    live: "https://kree-dev.vercel.app/",
     code: "https://github.com/K2Krishia/kree-dev",
   },
   {
