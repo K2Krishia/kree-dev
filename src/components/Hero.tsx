@@ -1,8 +1,12 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <motion.section
+      id="home"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-4">
       <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-900 dark:text-white mb-4 font-['JetBrains_Mono']">
         Krishia Ranque Bello
       </h1>
@@ -36,6 +40,11 @@ export default function Hero() {
           <FaLinkedin /> LinkedIn
         </a>
       </div>
-    </section>
+      <div className="mt-12 flex justify-center">
+        <a href="#about" className="animate-bounce text-blue-600 dark:text-blue-400 text-2xl">
+          <FaChevronDown />
+        </a>
+      </div>
+    </motion.section>
   );
 }

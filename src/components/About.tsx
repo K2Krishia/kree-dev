@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
+
 export default function About() {
   return (
-    <section
+    <motion.section
       id="about"
       className="py-20 px-6 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-center"
     >
@@ -11,6 +13,6 @@ export default function About() {
         You’ll usually find me knee-deep in bugs that vanish when someone else looks at them 👻.
         I enjoy building real-time systems, fast games, and solving problems I probably created.
       </p>
-    </section>
+    </motion.section>
   );
 }

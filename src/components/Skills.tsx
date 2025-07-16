@@ -49,7 +49,7 @@ const skills = {
 
 export default function Skills() {
   return (
-    <section
+    <motion.section
       id="skills"
       className="py-20 px-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
     >
@@ -78,6 +78,6 @@ export default function Skills() {
           </motion.div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
