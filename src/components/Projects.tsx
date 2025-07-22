@@ -25,6 +25,14 @@ const projects = [
     code: "https://github.com/K2Krishia/stir-fry",
   },
   {
+    title: "🏰 My Heart's At Home (Java Platformer)",
+    description:
+      "A classic side-scrolling platformer built in Java using Tiled maps and pixel sprites. Guide our hero named Caesar through 4 perilous levels filled with ogres, skeleton soldiers, and other annoyances who don’t want him to make it home. Just a normal college project, obviously.",
+    tech: ["Java", "Tiled", "Pixel Art", "GameDev"],
+    live: "/MHAH.jar",
+    code: null
+  },
+  {
     title: "⚠️ Kree Dev",
     description: "Personal portfolio site showcasing my work and humor (this site!).",
     tech: ["Next.js", "Tailwind", "TypeScript", "Vercel"],
