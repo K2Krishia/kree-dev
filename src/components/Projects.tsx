@@ -3,10 +3,17 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "🃏 Regnum",
-    description: "A real-time gambling card game (licensed by PAGCOR) that supports thousands of concurrent users. Developed as part of a large-scale system under ESAT Pilipinas Teknik, OPC.",
-    tech: ["Flutter", ".NET", "Django", "Node.js", "Kafka", "Redis", "PostgreSQL", "MsSql", "Socket.io"],
-    live: "https://happy-play.ept.ph/",
+    title: "🐟 Fish Yeah! (Baconbits)",
+    description: "An RTP-based slot game deployed on Stake platform featuring engaging fish-themed slot gameplay with return-to-player mechanics. Built for high-performance gambling experiences with real money transactions.",
+    tech: ["Python", "PixiJs", "Svelte", "Stake Engine", "Game Development", "RTP Systems", "Slot Mechanics", "Real Money Gaming"],
+    live: "https://stake.com/casino/games/baconbits-fish-yeah",
+    code: null,
+  },
+  {
+    title:"🎰 MGAME",
+    description: "A comprehensive gambling platform licensed under PAGCOR, engineered to handle thousands of concurrent users seamlessly. Features a diverse portfolio of games including slot machines and live specialty games. I contributed to the development of this large-scale distributed system at ESAT Pilipinas Teknik, OPC.",
+    tech: ["Javascript", ".NET", "Django", "Node.js", "Kafka", "Redis", "PostgreSQL", "MsSql", "uWebsocket"],
+    live: "https://mgame.ph/",
     code: null,
   },
   {
@@ -28,7 +35,7 @@ const projects = [
     title: "🏰 My Heart's At Home (Java Platformer)",
     description:
       "A classic side-scrolling platformer built in Java using Tiled maps and pixel sprites. Guide our hero named Caesar through 4 perilous levels filled with ogres, skeleton soldiers, and other annoyances who don’t want him to make it home. Just a normal college project, obviously.",
-    tech: ["Java", "Tiled", "Pixel Art", "GameDev"],
+    tech: ["Java", "Tiled", "Pixel Art", "Game Development"],
     live: "/MHAH.jar",
     code: null
   },

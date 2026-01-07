@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import {
   FaReact, FaVuejs, FaDocker, FaGitAlt,
-  FaNodeJs
+  FaNodeJs, FaHtml5, FaCss3Alt, FaSass
 } from "react-icons/fa";
 import {
   SiTailwindcss, SiFirebase, SiDjango, SiMongodb, SiPostgresql,
   SiMysql, SiKubernetes, SiApachekafka, SiRedis, SiJavascript,
-  SiTypescript, SiPython, SiDotnet
+  SiTypescript, SiPython, SiDotnet, SiSvelte, SiPixiv
 } from "react-icons/si";
 import { PiFileCSharpBold } from "react-icons/pi";
 
@@ -15,9 +15,11 @@ const skillIcons: Record<string, React.ReactNode> = {
   Vue: <FaVuejs />,
   "React Native": <FaReact />,
   Tailwind: <SiTailwindcss />,
-  HTML: <span>🌐</span>,
-  CSS: <span>🎨</span>,
-  SCSS: <span>💅</span>,
+  HTML: <FaHtml5 />,
+  CSS: <FaCss3Alt />,
+  SCSS: <FaSass />,
+  PixiJs: <SiPixiv />,
+  Svelte: <SiSvelte />,
   "Node.js": <FaNodeJs />,
   Django: <SiDjango />,
   ".NET": <SiDotnet />,
@@ -30,6 +32,7 @@ const skillIcons: Record<string, React.ReactNode> = {
   Kafka: <SiApachekafka />,
   Git: <FaGitAlt />,
   Redis: <SiRedis />,
+  "Stake Engine": <span>🎰</span>,
   JavaScript: <SiJavascript />,
   TypeScript: <SiTypescript />,
   Python: <SiPython />,
@@ -40,9 +43,9 @@ const skillIcons: Record<string, React.ReactNode> = {
 };
 
 const skills = {
-  "Frontend": ["React", "Vue", "React Native", "Tailwind", "HTML", "CSS", "SCSS"],
+  "Frontend": ["React", "Vue", "React Native", "Tailwind", "HTML", "CSS", "SCSS", "PixiJs", "Svelte"],
   "Backend": ["Node.js", "Django", ".NET", "Firebase", "PostgreSQL", "MySQL", "MongoDB"],
-  "Tools & DevOps": ["Docker", "Kubernetes", "Kafka", "Git", "Redis"],
+  "Tools & DevOps": ["Docker", "Kubernetes", "Kafka", "Git", "Redis", "Stake Engine"],
   "Languages": ["JavaScript", "TypeScript", "Python", "C#"],
   "Other": ["Malware Analysis 🐛", "Machine Learning 🎓", "Real-time Systems ⚡"],
 };
