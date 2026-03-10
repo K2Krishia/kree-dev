@@ -38,3 +38,51 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+## Deploy to Firebase (Secondary Deployment)
+
+This project now supports a second deployment target on Firebase Hosting while
+keeping Vercel for your primary deployment.
+
+### 1) Install dependencies
+
+```bash
+npm install
+```
+
+### 2) Install Firebase CLI globally (optional)
+
+```bash
+npm i -g firebase-tools
+```
+
+If you do not want a global install, `npx firebase-tools` is already used in the
+deploy script.
+
+### 3) Login and connect project
+
+```bash
+firebase login
+firebase use --add
+```
+
+When prompted, select your Firebase project and set it as `default`. This updates
+`.firebaserc`.
+
+### 4) Deploy to Firebase Hosting
+
+```bash
+npm run deploy:firebase
+```
+
+This runs a Firebase-specific Next.js static export build and deploys the `out/`
+folder to Hosting.
+
+If you were seeing Hosting API `500` errors with the latest Firebase CLI, this
+project pins deploy to a known working CLI version in `deploy:firebase`.
+
+### Notes
+
+- `npm run build` remains your normal Next.js build (good for Vercel).
+- `npm run build:firebase` uses static export mode for Firebase Hosting.
+- Since this is static export for Firebase, API routes are not deployed there.

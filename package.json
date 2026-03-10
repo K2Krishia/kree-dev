@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:firebase": "cross-env NEXT_OUTPUT=export next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:firebase": "npm run build:firebase && npx firebase-tools@13.32.0 deploy --only hosting --project default"
   },
   "dependencies": {
     "framer-motion": "^12.23.5",
@@ -21,6 +23,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.4.1",
     "postcss": "^8.5.6",
