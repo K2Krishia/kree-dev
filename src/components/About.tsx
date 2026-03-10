@@ -9,8 +9,8 @@ export default function About() {
       <h2 className="text-4xl font-bold mb-4">👩‍💻 About Me</h2>
       <p className="max-w-3xl mx-auto text-lg leading-relaxed">
         I&#39;m Krishia — a fullstack developer who talks to APIs more than people.
-        I specialize in staring at screens until — voila! — working code appears ✨.
-        You’ll usually find me knee-deep in bugs that vanish when someone else looks at them 👻.
+        I specialize in staring at screens until — voila! — working code appears.
+        You’ll usually find me knee-deep in bugs that vanish when someone else looks at them.
         I enjoy building real-time systems, fast games, and solving problems I probably created.
       </p>
     </motion.section>

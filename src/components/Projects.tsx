@@ -2,6 +2,13 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
+    {
+    title: "⚔️ Underworld Unboxing (Baconbits)",
+    description: "An RTP-based slot game deployed on Stake platform centered on weapon chest unboxing gameplay, where players open themed crates for high-volatility reward outcomes.",
+    tech: ["Python", "PixiJs", "Svelte", "Stake Engine", "Game Development", "RTP Systems", "Unboxing Mechanics", "Slot Mechanics", "Real Money Gaming"],
+    live: "https://stake.com/casino/games/baconbits-underworld-unboxing",
+    code: null,
+  },
   {
     title: "🐟 Fish Yeah! (Baconbits)",
     description: "An RTP-based slot game deployed on Stake platform featuring engaging fish-themed slot gameplay with return-to-player mechanics. Built for high-performance gambling experiences with real money transactions.",
@@ -56,7 +63,7 @@ export default function Projects() {
     >
       <h2 className="text-4xl font-bold text-center mb-2">💼 Projects</h2>
       <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2 mb-8 max-w-2xl mx-auto">
-        🔒 Note: Most of my professional projects live in proprietary vaults, protected by NDAs, lawyers, and possibly laser security systems 🧑‍⚖️🧨. Here’s what I can show you without getting sued 🤫.
+        🔒 Note: Most of my professional projects live in proprietary vaults, protected by NDAs, lawyers, and possibly laser security systems. Here’s what I can show you without getting sued.
       </p>
       <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
