@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "kree-dev-cae9c"
-  }
+    "default": "kree-dev-cae9c",
+    "prod": "kree-dev-cae9c"
+  },
+  "targets": {},
+  "etags": {}
 }
