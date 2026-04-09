@@ -47,6 +47,13 @@ const projects = [
     code: null
   },
   {
+    title: "👷 3MC King System",
+    description: "Full-stack construction inventory system that tracks materials, projects, and vehicles in real-time. Features a drag-and-drop Kanban board for vehicle status, automatic inventory math (because manual calculations are for masochists), and a 24-hour edit window to prevent data chaos. Firebase keeps everything synced while you pretend you didn't just dispatch cement to the wrong project.",
+    tech: ["Next.js 14", "TypeScript", "Firebase", "Firestore", "Tailwind CSS", "React"],
+    live: "https://3mc-king-system.vercel.app/",
+    code: "https://github.com/K2Krishia/3mc-king-system"
+  },
+  {
     title: "⚠️ Kree Dev",
     description: "Personal portfolio site showcasing my work and humor (this site!).",
     tech: ["Next.js", "Tailwind", "TypeScript", "Vercel"],
